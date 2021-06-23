@@ -47,6 +47,22 @@
         padding: 20px;
       }
       
+      #originButton {
+        background: white;
+        border-style: solid;
+        border-color: grey;
+        font-family: cursive;
+        padding: 15px;
+      }
+      
+      #originButton:hover {
+        background: grey;
+        border-style: solid;
+        border-color: white;
+        color: white;
+        cursor: pointer;
+      }
+      
     </style>
     
     <img src = "https://lh6.googleusercontent.com/-cgNc62kWS0RN5tRZg46UKPzmhy9JqVXCVjXRwf3INi8HQXgYDec-cUH96Y5fbfdLX1PQYpe-L9BL8GShohjb5Q=w1280" width = "150">
@@ -73,7 +89,7 @@
     
     <!-- Origin -->
     
-    <button type = "button" onclick = "originProject()">Original Website</button>
+    <button id = "originButton" type = "button" onclick = "originProject()">Original Website</button>
     
     <script>
       
